@@ -15,9 +15,10 @@ langchain-openai>=0.0.3
 tiktoken>=0.6.0
 transformers>=4.36.0
 
-# Data processing
+# Data processing and storage
 numpy>=1.25.0
 pandas>=2.0.0
+chromadb>=0.5.0
 
 # Vector search
 faiss-cpu>=1.7.4
@@ -27,14 +28,27 @@ pydantic>=2.5.1
 pydantic-settings>=2.0.0
 python-dotenv>=1.0.0
 slowapi>=0.1.8
+asyncio>=3.4.3
+aiofiles>=23.2.1
 
 # Testing
 pytest>=7.4.3
 pytest-asyncio>=0.21.1
 httpx>=0.25.1
+pytest-cov>=4.1.0
 
 # Voice interface
 pyttsx3>=2.90
 SpeechRecognition>=3.10.0
-chromadb>=0.5.0
+wave>=0.0.2
+pyaudio>=0.2.13
+whisper>=1.1.10
 
+# Rate limiting
+starlette>=0.27.0
+
+# Development
+black>=23.11.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.7.0
