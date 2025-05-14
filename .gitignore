@@ -1,0 +1,82 @@
+# Environment variables and secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+chroma_db/
+*.db
+*.sqlite3
+logs/
+*.log
+
+# Docker
+.docker/
+docker-volumes/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# API keys and credentials
+*_key.json
+*_credentials.json
+credentials/
+secrets/
+
+# Voice files
+*.wav
+*.mp3
+*.ogg
+temp_audio/
+
+# Documentation
+docs/_build/
+site/
+
+# Misc
+*.bak
+*.tmp
+*.temp
