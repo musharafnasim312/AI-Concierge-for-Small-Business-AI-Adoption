@@ -42,8 +42,8 @@ pytest-cov>=4.1.0
 pyttsx3>=2.90
 SpeechRecognition>=3.10.0
 wave>=0.0.2
-pyaudio>=0.2.13
 whisper>=1.1.10
+edge-tts>=6.1.9
 
 # Rate limiting
 starlette>=0.27.0
